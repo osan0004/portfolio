@@ -13,4 +13,4 @@ Always add a semicolon at the end of every css
 - [Bootsrap](https://getbootstrap.com/)
 
 ## External Resources 
--[Roboto Google Font](https://fonts.google.com/specimen/Roboto?query=roboto)
+- [Roboto Google Font](https://fonts.google.com/specimen/Roboto?query=roboto)
