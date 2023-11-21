@@ -10,6 +10,6 @@ I struggled alot with CSS but through mltiple practice demos, I began to get mor
 Always add a semicolon at the end of every css 
 
 ## Frameworks & Libraries
-- [Bootsrap] (https://getbootstrap.com/)
+- [Bootsrap](https://getbootstrap.com/)
 
 ## External Resources 
