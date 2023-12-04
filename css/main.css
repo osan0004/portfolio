@@ -1,6 +1,9 @@
 :root{
 --bs-primary: #434d5c;
 --bs-secondary: #6c757d;
+--bs-primary-rgb: 13, 110, 253;
+--bs-secondary-rgb: 108, 117, 125;
+
 }
 
 .beige-bg {
@@ -8,7 +11,7 @@
   --bs-primary-rgb: 252, 247, 238;
 }
 
-.footer{
+.footer {
   --bs-btn-color: #994505;
   --bs-primary-rgb: 153, 69, 5;
 }
