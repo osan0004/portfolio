@@ -1,0 +1,14 @@
+:root{
+--bs-primary: #434d5c;
+--bs-secondary: #6c757d;
+}
+
+.beige-bg {
+  --bs-btn-color: #FCF7EE;
+  --bs-primary-rgb: 252, 247, 238;
+}
+
+.footer{
+  --bs-btn-color: #994505;
+  --bs-primary-rgb: 153, 69, 5;
+}
