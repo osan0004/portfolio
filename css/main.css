@@ -15,3 +15,12 @@
   --bs-btn-color: #994505;
   --bs-primary-rgb: 153, 69, 5;
 }
+
+.nav-header{
+  /* display: flex; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
