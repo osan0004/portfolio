@@ -7,16 +7,16 @@
   <!-- bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <!-- carousel CSS -->
-  <link rel="stylesheet" type="text/css" href="glider.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
   <!-- custom css -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="container">
-  <header class="">
+<body class="">
+  <header class="container-lg">
     <nav class="d-flex justify-content-around">
       <img src="images/Main Logo.jpg" alt="my logo">
-      <ul class="d-flex justify-content-around flex-grow-1 align-items-center list-unstyled text-dark">
+      <ul class="nav d-flex justify-content-around flex-grow-1 align-items-center list-unstyled text-dark">
         <li><a href="home.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
@@ -27,12 +27,12 @@
   </header>
 
   <main>
-    <section class="container-fluid d-grid">
+    <section class="container-fluid container-lg d-grid">
       <div class="row column-gap-0">
-        <h1 class="col-12 mt-5 ">
+        <h1 class="hero-text col-12 mt-5 display-1">
           Welcome To My Page
         </h1>
-        <div class="col-6 mt-5">
+        <div class="col-md-6 mt-5 d-md-flex flex-column justify-content-center">
           <p>
             <b><i>I'm David-</i></b> a portrait & street
             photographer/videographer
@@ -41,11 +41,11 @@
           <p class="d-flex justify-content-center">OTTAWA, ONTARIO & BEYOND</p>
           <hr>
         </div>
-        <div class="col-3 ">
+        <div class="col-md-3 ">
           <img class="w-100" src="images/colored of me.jpg" alt="colored image of me">
           <p>Fun Young and full of energy</p>
         </div>
-        <div class="col-3">
+        <div class="col-md-3">
           <img class="w-100" src="images/b&w of me.jpg" alt="b&w image of me">
         </div>
       </div>
@@ -53,18 +53,24 @@
 
     <!-- carousel menu -->
     <section class="">
-      <!-- <div class="glider-contain">
+      <div class="glider-contain">
         <div class="glider">
-          <div><img src="images/Victory-B&W.jpg" alt="Victory"></div>
-          <div><img src="images/Perpy-CA building.jpg" alt="perpy at CA building"></div>
-          <div><img src="images/Ekemini.jpg" alt="Ekemini"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
         </div>
-
+      
         <button aria-label="Previous" class="glider-prev">«</button>
         <button aria-label="Next" class="glider-next">»</button>
         <div role="tablist" class="dots"></div>
-      </div> -->
-      <div id="carouselExampleFade" class="carousel slide carousel-fade w-100">
+      </div>
+      <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade w-100">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building">
@@ -84,10 +90,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-
-
+      </div> -->
     </section>
 
     <section class="pt-5">
@@ -103,78 +106,94 @@
     </section>
 
     <section class="beige-bg bg-primary">
-      <div class="d-flex justify-content-center justify-content-around gap-5">
-        <div>
-          <li class="d-flex justify-content-center fs-4 list-unstyled text-light border border-dark w-50 p-3"><a
-              href="projects.html">For portraits</a></li>
-          <img class="w-100" src="images/Beauty shot Victory.jpg" alt="Beauty shot of victory">
+      <div class=" container-lg">
+        <div class="row">
+          <div class="projects-link col-md-6">
+            <li class="portrait-event-link"><a href="projects.html">For portraits</a></li>
+            <img class="w-100" src="images/Beauty shot Victory.jpg" alt="Beauty shot of victory">
+          </div>
+          <div class="projects-link col-md-6">
+            <li class="portrait-event-link "><a href="projects.html">For events</a></li>
+            <img class="w-100" src="images/Fiyin bday B&W.jpg" alt="Fiyin bday b&w">
+          </div>
         </div>
-        <div>
-          <li class=" d-flex justify-content-center fs-4 border border-dark list-unstyled text-light w-50 p-3"><a
-              href="projects.html">For events</a></li>
-          <img class="w-100" src="images/Fiyin bday B&W.jpg" alt="Fiyin bday b&w">
-        </div>
-      </div>
+      </div> <!--closes .row-->
     </section>
   </main>
 
-  <footer class="footer bg-secondary mt-5 mb-5">
-    <section class="row">
-      <div class="col-4 ">
-        <img class="w-100 pb-5" src="images/silhouette.jpg" alt="silhouette">
-      </div>
-
-      <div class="col-4 mt-5">
-        <h2>
-          Let's work
-          together
-        </h2>
-        <p>Email</p>
-        <p>doosandatuwa@gmail.com</p>
-        <p>Icons</p>
-      </div>
-
-      <div class="col-4">
-        <p>Get in touch</p>
-        <div class="form d-flex gap-2">
-          <!-- <div class="full-name">
-            <label class="form-label" for="fname"> Name </label>
-          </div> -->
-          <div>
-            <input class="input-max-width" id="fname" type="text" name="fname" placeholder="Name">
-          </div>
-
-          <!-- <div class="form-email">
-            <label class="form-label" for="age"> Email </label>
-          </div> -->
-          <div>
-            <input class="input-max-width" id="age" type="text" name="Email" placeholder="Email">
-          </div>
-        </div><!--div closing Form-->
-        <!-- <div class="form-message">
-          <label class="form-label" for="your-message"> Message</label>
-        </div> -->
-        <div class="message-box d-flex w-100">
-          <textarea class="input-max-width" id="your-message" placeholder="Message"></textarea>
+  <footer class="footer bg-secondary pt-5">
+    <section class="container-lg">
+      <div class="row">
+        <div class="col-md-4 ">
+          <img class="w-100 pb-5" src="images/silhouette.jpg" alt="silhouette">
         </div>
-
-        <button class="send-btn d-flex align-content-end p-3" type="submit">Send</button>
-      </div>
-      <hr>
-      <div >
-        <p > 
-          My work is a representation of my passion and love for photography/videography, I shoot with the aim of
-          passing across that same passion through my photos to each client I work with.
-        </p> 
-        <p class="d-flex justify-content-center">
-          © DAVID MEDIA, 2023
-        </p>
+    
+        <div class="col-md-4 mt-5">
+          <h2>
+            Let's work
+            together
+          </h2>
+          <p>Email</p>
+          <p>doosandatuwa@gmail.com</p>
+          <p>Icons</p>
+        </div>
+    
+        <div class="col-md-4">
+          <p>Get in touch</p>
+          <form>
+            <div class="form d-flex gap-2">
+              <!-- <div class="full-name">
+                      <label class="form-label" for="fname"> Name </label>
+                    </div> -->
+              <div class="flex-grow-1">
+                <input class="input-max-width" id="fname" type="text" name="fname" placeholder="Name">
+              </div>
+    
+              <!-- <div class="form-email">
+                      <label class="form-label" for="age"> Email </label>
+                    </div> -->
+              <div class="flex-grow-1">
+                <input class="input-max-width" id="age" type="text" name="Email" placeholder="Email">
+              </div>
+            </div><!--div closing Form-->
+            <!-- <div class="form-message">
+                    <label class="form-label" for="your-message"> Message</label>
+                  </div> -->
+            <div class="message-box d-flex w-100">
+              <textarea class="w-100" id="your-message" placeholder="Message" rows="6"></textarea>
+            </div>
+    
+            <button class="send-btn d-flex align-content-end p-3" type="submit">Send</button>
+          </form>
+        </div>
+        <hr>
+        <div>
+          <p>
+            My work is a representation of my passion and love for photography/videography, I shoot with the aim of
+            passing across that same passion through my photos to each client I work with.
+          </p>
+          <p class="d-flex justify-content-center">
+            © DAVID MEDIA, 2023
+          </p>
+        </div>
       </div>
     </section>
   </footer>
 
 <!--carousel JS -->
-  <script src="glider.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script>
+  new Glider(document.querySelector('.glider'), {
+  slidesToScroll: 1,
+  slidesToShow: 3.5,
+  draggable: true,
+  dots: '.dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+</script>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

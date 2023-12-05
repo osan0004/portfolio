@@ -1,19 +1,9 @@
 :root{
---bs-primary: #434d5c;
---bs-secondary: #6c757d;
---bs-primary-rgb: 13, 110, 253;
---bs-secondary-rgb: 108, 117, 125;
+--bs-primary: #FCF7EE;
+--bs-secondary: #994505;
+--bs-primary-rgb: 252, 247, 238;
+--bs-secondary-rgb: 153, 69, 5;
 
-}
-
-.beige-bg {
-  --bs-btn-color: #FCF7EE;
-  --bs-primary-rgb: 252, 247, 238;
-}
-
-.footer {
-  --bs-btn-color: #994505;
-  --bs-primary-rgb: 153, 69, 5;
 }
 
 .nav-header{
@@ -23,6 +13,11 @@
 nav ul {
   display: flex;
   justify-content: space-around;
+}
+
+.hero-text{
+  position: relative;
+  margin-bottom: -2.5rem;
 }
 
 .pic-grid-container {
@@ -169,7 +164,47 @@ hr{
  margin-top: 50rem;
 }
 
-.about-skewer{
+/* .portrait-event-grid{
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+} */
 
+.portrait-event-link{
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
 }
 
+.portrait-event-link a{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.projects-link{
+  padding: 1rem;
+}
+
+.nav a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.skewer::after{
+  width: 100%;
+  height: 200px;
+  background-color:#994505;
+  content: "";
+  transform: skewY(7deg);
+  position: absolute;
+  bottom: -85px;
+  z-index: -1;
+}
