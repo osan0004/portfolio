@@ -3,7 +3,14 @@
   --bs-secondary: #994505;
   --bs-primary-rgb: 252, 247, 238;
 --bs-secondary-rgb: 153, 69, 5;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Spectral:ital,wght@0,200;0,300;0,600;1,400;1,600&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Spectral', serif;
 }
 
 .nav-header{
@@ -157,8 +164,14 @@ nav li :focus {
   color: inherit;
 }
 
+/* .bw-of-me:hover{
+}
 
+.colored-of-me:hover{
+  filter: saturate(0);
+} */
 
+/* ---projects page-- */
 .pic-1 {
   grid-area: pic-1;
 }
@@ -270,30 +283,31 @@ hr{
 }
 
 
-.about-skewer{
-  background-color: #994505;
-  position: relative;
-}
-
 .skewer{
- z-index: -1000;
+ z-index: 1;
  width: 100%;
- position: absolute;
+ position: relative;
  margin-top: 50rem;
+ margin-top: 0;
 }
-
-
 
 .skewer::after{
   width: 100%;
   height: 200px;
   background-color:#994505;
   content: "";
-  transform: skewY(7deg);
+  transform: skewY(4deg);
   position: absolute;
-  bottom: -85px;
+  bottom: -100px;  
   z-index: -1;
+  /* was bottom -85 
+  skewY was 7deg*/
 }
+
+.third-about-img{
+  margin-top: 10rem;
+}
+
 
 .send-btn{
   display: flex;
@@ -330,7 +344,10 @@ hr{
   transition-delay: .1s;
 }
 
-
+/* .about-hero-sec{
+  display: flex;
+  justify-content: end;
+} */
 
 /* ---Tablet media querry ---*/
 @media (max-width: 1024px){
@@ -388,4 +405,25 @@ hr{
     margin-bottom: 0;
     ;
   }
+
+  .about-intro{
+    display: flex;
+    order: 2;
+  }
+
+  .my-name{
+    font-size: 4rem;
+    position: absolute;
+    color:#994505;
+    display: flex;
+    justify-content: start;
+  }
+
+.about-banner{
+  margin-top: 2rem;
+}
+
+.about-hero-sec{
+  margin-top: 2rem;
+}
 }
