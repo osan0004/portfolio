@@ -100,6 +100,10 @@ nav li :focus {
   color: #994505;
 }
 
+.logo{
+  width: 80%;
+}
+
 .bio{
   padding-top: 5rem;
 }
@@ -234,7 +238,7 @@ nav li :focus {
 }
 
 .footer-email{
-  padding: 2rem 0;
+  padding: 6rem 0;
 }
 
 .footer-form{
@@ -326,6 +330,48 @@ hr{
   transition-delay: .1s;
 }
 
+
+
+/* ---Tablet media querry ---*/
+@media (max-width: 1024px){
+  .bio{
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+  
+.hero-text{
+  padding-left: 2rem;
+}
+
+.location{
+  padding-top: 1rem;
+}
+
+#carousel{
+  padding-top:1rem;
+}
+
+.welcome-projects{
+  width: 80%;
+}
+
+.footer-email{
+  padding-top: 0;
+}
+
+.line-break{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-message{
+  height: 200%
+}
+}
+
+
+
+/* ---mobile media querry ---*/
 @media (max-width: 768px){
   .hr-line-below{
     display: flex;
