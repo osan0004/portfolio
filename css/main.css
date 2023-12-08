@@ -62,6 +62,7 @@ nav ul {
 
 .skip-links a {
   position: absolute;
+  z-index: 1;
   top: -3em;
   background-color:#FCF7EE;
   color: black;
