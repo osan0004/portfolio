@@ -1,7 +1,7 @@
 :root{
---bs-primary: #FCF7EE;
---bs-secondary: #994505;
---bs-primary-rgb: 252, 247, 238;
+  --bs-primary: #FCF7EE;
+  --bs-secondary: #994505;
+  --bs-primary-rgb: 252, 247, 238;
 --bs-secondary-rgb: 153, 69, 5;
 
 }
@@ -15,10 +15,6 @@ nav ul {
   justify-content: space-around;
 }
 
-.hero-text{
-  position: relative;
-  margin-bottom: -2.5rem;
-}
 .pic-grid-container {
   display: grid;
   width: 100%;
@@ -29,29 +25,34 @@ nav ul {
     "pic-8 pic-8 pic-9 pic-9"
     "pic-10 pic-11 pic-12 pic-13"
     "pic-14 pic-14 pic-15 pic-15";
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 1rem;
-  column-gap: 1rem;
-}
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+} */
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
+  /* body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
       opacity: 1;
    }
-}
+} */
 
 .skip-links {
   list-style: none;
@@ -85,12 +86,26 @@ nav li a:visited {
   text-transform: uppercase;
   color: black;
   transition: transform .5s;
-  transition-delay: .3s;
+  transition-delay: .2s;
+}
+
+nav li a:hover{
+  color: #994505;
 }
 
 nav li :hover,
 nav li :focus {
   transform: scale(1.25);
+  color: #994505;
+}
+
+.bio{
+  padding-top: 5rem;
+}
+
+.hero-text{
+  position: relative;
+  margin-bottom: -1.5rem;
 }
 
 .img-container img {
@@ -98,6 +113,46 @@ nav li :focus {
   height: 100%;
   object-fit: cover;
 }
+
+.portrait-event-link a:hover,
+.portrait-event-link :focus {
+  background-color:#994505;
+  transition-delay: .1s;
+  transform: scale(0.9);
+  color: white;
+}
+
+.portrait-event-link{
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.portrait-event-link a{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: .3s ease-in-out;
+}
+
+.projects-link{
+  padding: 1rem;
+}
+
+.nav a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 .pic-1 {
   grid-area: pic-1;
@@ -178,7 +233,7 @@ nav li :focus {
 }
 
 .footer-email{
-  padding-top: 7rem;
+  padding: 2rem 0;
 }
 
 .footer-form{
@@ -187,8 +242,12 @@ nav li :focus {
 
 .input-max-width{
   height: 3rem;
-  padding-left: 1rem;
+  padding: 1rem;
   width: 100%;
+}
+
+.form-message{
+  padding: 1rem;
 }
 
 hr{
@@ -205,10 +264,6 @@ hr{
   gap: 1rem;
 }
 
-.message-box{
-  padding-top: 1rem;
-  height: 100%;
-}
 
 .about-skewer{
   background-color: #994505;
@@ -222,39 +277,7 @@ hr{
  margin-top: 50rem;
 }
 
-/* .portrait-event-grid{
-  display: grid;
-  grid-template-columns:repeat(2, 1fr);
-} */
 
-.portrait-event-link{
-  padding: 1rem;
-  text-decoration: none;
-  font-size: 1.5rem;
-  /* border: 2px solid black; */
-  display: flex;
-  justify-content: center;
-  margin-bottom: .5rem;
-}
-
-.portrait-event-link a{
-  display: flex;
-  justify-content: center;
-  border: 2px solid black;
-  width: 100%;
-  padding: 1rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-.projects-link{
-  padding: 1rem;
-}
-
-.nav a{
-  text-decoration: none;
-  color: inherit;
-}
 
 .skewer::after{
   width: 100%;
@@ -268,21 +291,38 @@ hr{
 }
 
 .send-btn{
-  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 25%;
+  /* color: white; */
+
 }
 
+.send-btn:hover{
+}
+
+.btn-container{
+  flex-direction:row-reverse ;
+  justify-content: end;
+}
+
+.message-box{
+  padding-top: 1rem;
+}
 
 .back-to-top{
   display: flex;
   justify-content: end;
   text-decoration: none;
   color: white;
+  transition: .3s ease-in-out;
 }
 
 .back-to-top:hover{
   color: black;
-  transition: transform .5s ease-in;
-  transition-delay: .3s;
+  transition-delay: .1s;
 }
 
 @media (max-width: 768px){

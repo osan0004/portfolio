@@ -22,9 +22,7 @@
     </ul>
 
     <nav class="nav d-flex justify-content-around">
-      <a href="home.html">
-        <img src="images/Main Logo.jpg" alt="my logo">
-      </a>
+       
       <ul class="nav d-flex justify-content-around flex-grow-1 align-items-center list-unstyled text-dark">
         <li><a href="home.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -33,15 +31,46 @@
       <div class="">
       </div>
     </nav>
+
+
+
+<nav class="navbar navbar-expand-lg bg-white" data-bs-theme="dark">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#home">
+          <!-- [Logo] -->
+          <img src="images/Main Logo.jpg" alt="my logo">
+        </a>
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active text-dark" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+
+
+
   </header>
 
   <main>
     <section id="welcome" class="container-fluid container-lg d-grid">
       <div class="row column-gap-0">
-        <h1 class="hero-text col-12 mt-5 display-1">
+        <h1 class="hero-text col-12 mt-5 display-1 fw-bold ">
           Welcome To My Page
         </h1>
-        <div class="col-md-6 mt-5 d-md-flex flex-column justify-content-center">
+        <div class="bio col-md-6 mt-5 d-md-flex flex-column">
           <p>
             <b><i>I'm David-</i></b> a portrait & street
             photographer/videographer
@@ -50,11 +79,11 @@
           <p class="d-flex justify-content-center">OTTAWA, ONTARIO & BEYOND</p>
           <hr>
         </div>
-        <div class="col-md-3 ">
+        <div class="img-of-me col-md-3 ">
           <img class="w-100" src="images/colored of me.jpg" alt="colored image of me">
-          <p>Fun Young and full of energy</p>
+          <p class="d-flex justify-content-center pb-4">Fun Young and full of energy</p>
         </div>
-        <div class="col-md-3">
+        <div class=" img-of-me col-md-3">
           <img class="w-100" src="images/b&w of me.jpg" alt="b&w image of me">
         </div>
       </div>
@@ -80,7 +109,7 @@
       </div>
     </section>
 
-    <section class="pt-5">
+    <section class="pt-5 pb-5">
       <h2 class="d-flex justify-content-center">
         I take pictures that tell
       </h2>
@@ -92,15 +121,15 @@
       </h2>
     </section>
 
-    <section id="projects" class="beige-bg bg-primary">
+    <section id="projects" class="beige-bg bg-primary pb-5 pt-5">
       <div class=" container-lg">
         <div class="row">
           <div class="projects-link col-md-6">
-            <li class="portrait-event-link"><a href="projects.html">For portraits</a></li>
-            <img class="w-100" src="images/Beauty shot Victory.jpg" alt="Beauty shot of victory">
+            <li class="buttons portrait-event-link"><a href="projects.html">For portraits</a></li>
+            <img class="w-100" src="images/Beauty shot Victory.jpg"  alt="Beauty shot of victory" >
           </div>
           <div class="projects-link col-md-6">
-            <li class="portrait-event-link "><a href="projects.html">For events</a></li>
+            <li class="buttons portrait-event-link "><a href="projects.html">For events</a></li>
             <img class="w-100" src="images/Fiyin b&w crop.jpg" alt="Fiyin bday b&w">
           </div>
         </div>
@@ -115,13 +144,12 @@
           <img class="footer-img w-100 pb-5" src="images/silhouette.jpg" alt="silhouette">
         </div>
     
-        <div class="col-md-4 mt-5">
-          <h2 class=" footer-h2 text-white">
-            Let's work
+        <div class="footer-email col-md-4 mt-5">
+          <h2 class=" text-white">
+            Let's work <br>
             together
           </h2>
-          <p class="text-white">Email</p>
-          <p class="text-white">doosandatuwa@gmail.com</p>
+          <p class="text-white pt-4">Email <br>doosandatuwa@gmail.com</p>
           <p class="text-white">Icons</p>
         </div>
     
@@ -146,11 +174,12 @@
             <!-- <div class="form-message">
                     <label class="form-label" for="your-message"> Message</label>
                   </div> -->
-            <div class="message-box d-flex w-100">
-              <textarea class="w-100" id="your-message" placeholder="Message" rows="6"></textarea>
+            <div class="message-box">
+              <textarea class="form-message w-100" id="your-message" placeholder="Message" rows="6"></textarea>
             </div>
-    
-            <button class="send-btn d-flex align-content-end p-3" type="submit">Send</button>
+            <div class="btn-container">
+              <button class="send-btn" type="submit">Send</button>
+            </div>
           </form>
         </div>
         <hr class="border-2 text-white">
