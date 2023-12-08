@@ -86,26 +86,6 @@ nav ul {
   top: 0;
 }
 
-nav li a,
-nav li a:link,
-nav li a:visited {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  transition: transform .5s;
-  transition-delay: .2s;
-}
-
-nav li a:hover{
-  color: #994505;
-}
-
-nav li :hover,
-nav li :focus {
-  transform: scale(1.25);
-  color: #994505;
-}
 
 
 .logo{
@@ -427,6 +407,4 @@ hr{
 .about-hero-sec{
   margin-top: 2rem;
 }
-
-
 }
