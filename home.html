@@ -12,10 +12,19 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="">
-  <header class="container-lg">
-    <nav class="d-flex justify-content-around">
-      <img src="images/Main Logo.jpg" alt="my logo">
+<body>
+  <header class="pt-4 container-lg">
+    <ul class="skip-links">
+      <li><a href="#welcome">Welcome Page</a></li>
+      <li><a href="#carousel">Carousel Menu</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact me</a></li>
+    </ul>
+
+    <nav class="nav d-flex justify-content-around">
+      <a href="home.html">
+        <img src="images/Main Logo.jpg" alt="my logo">
+      </a>
       <ul class="nav d-flex justify-content-around flex-grow-1 align-items-center list-unstyled text-dark">
         <li><a href="home.html">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -27,7 +36,7 @@
   </header>
 
   <main>
-    <section class="container-fluid container-lg d-grid">
+    <section id="welcome" class="container-fluid container-lg d-grid">
       <div class="row column-gap-0">
         <h1 class="hero-text col-12 mt-5 display-1">
           Welcome To My Page
@@ -52,45 +61,23 @@
     </section>
 
     <!-- carousel menu -->
-    <section class="">
+    <section id="carousel">
       <div class="glider-contain">
         <div class="glider">
           <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
-          <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
+          <div><img src="images/dude in air 2-1.jpg" class="d-block w-100" alt="dude in air"></div>
+          <div><img src="images/Landscape.jpg" class="d-block w-100" alt="perpy hand on face"></div>
+          <div><img src="images/doorway.jpg" class="d-block w-100" alt="doorway"></div>
+          <div><img src="images/Canada flag.jpg" class="d-block w-100" alt="canada flag"></div>
+          <div><img src="images/Art school.jpg" class="d-block w-100" alt="Ottawa art school"></div>
+          <div><img src="images/b&w dog.jpg" class="d-block w-100" alt="b&w dog"></div>
+          <div><img src="images/the pub.jpg" class="d-block w-100" alt="the pub"></div>
         </div>
       
         <button aria-label="Previous" class="glider-prev">«</button>
         <button aria-label="Next" class="glider-next">»</button>
         <div role="tablist" class="dots"></div>
       </div>
-      <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade w-100">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building">
-          </div>
-          <div class="carousel-item">
-            <img src="images/Victory-B&W.jpg" class="d-block w-100" alt="Victory-B&W">
-          </div>
-          <div class="carousel-item">
-            <img src="images/Ekemini.jpg" class="d-block w-100" alt="Ekemini">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
     </section>
 
     <section class="pt-5">
@@ -105,7 +92,7 @@
       </h2>
     </section>
 
-    <section class="beige-bg bg-primary">
+    <section id="projects" class="beige-bg bg-primary">
       <div class=" container-lg">
         <div class="row">
           <div class="projects-link col-md-6">
@@ -114,33 +101,33 @@
           </div>
           <div class="projects-link col-md-6">
             <li class="portrait-event-link "><a href="projects.html">For events</a></li>
-            <img class="w-100" src="images/Fiyin bday B&W.jpg" alt="Fiyin bday b&w">
+            <img class="w-100" src="images/Fiyin b&w crop.jpg" alt="Fiyin bday b&w">
           </div>
         </div>
       </div> <!--closes .row-->
     </section>
   </main>
 
-  <footer class="footer bg-secondary pt-5">
+  <footer id="contact" class="footer bg-secondary pt-5">
     <section class="container-lg">
       <div class="row">
         <div class="col-md-4 ">
-          <img class="w-100 pb-5" src="images/silhouette.jpg" alt="silhouette">
+          <img class="footer-img w-100 pb-5" src="images/silhouette.jpg" alt="silhouette">
         </div>
     
         <div class="col-md-4 mt-5">
-          <h2>
+          <h2 class=" footer-h2 text-white">
             Let's work
             together
           </h2>
-          <p>Email</p>
-          <p>doosandatuwa@gmail.com</p>
-          <p>Icons</p>
+          <p class="text-white">Email</p>
+          <p class="text-white">doosandatuwa@gmail.com</p>
+          <p class="text-white">Icons</p>
         </div>
     
         <div class="col-md-4">
-          <p>Get in touch</p>
-          <form>
+          <p class="text-white">Get in touch</p>
+          <form action="mailto:doosandatuwa@gmail.com" method="post" enctype="text/plain">
             <div class="form d-flex gap-2">
               <!-- <div class="full-name">
                       <label class="form-label" for="fname"> Name </label>
@@ -166,15 +153,20 @@
             <button class="send-btn d-flex align-content-end p-3" type="submit">Send</button>
           </form>
         </div>
-        <hr>
-        <div>
-          <p>
-            My work is a representation of my passion and love for photography/videography, I shoot with the aim of
+        <hr class="border-2 text-white">
+        <a class="back-to-top" href="#top" aria-label="Go back to the top">Back to Top</a>
+        <div class="hr-line-below">
+          <p class="hr-p d-flex justify-content-center text-white">
+            My work is a representation of my passion and love for photography/videography, <br> 
+          </p>
+          <p class="hr-p d-flex justify-content-center text-white">
+            I shoot with the aim of
             passing across that same passion through my photos to each client I work with.
           </p>
-          <p class="d-flex justify-content-center">
+          <p class="hr-p d-flex justify-content-center text-white">
             © DAVID MEDIA, 2023
           </p>
+
         </div>
       </div>
     </section>
@@ -182,10 +174,10 @@
 
 <!--carousel JS -->
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-<script>
+<script class="pt-5">
   new Glider(document.querySelector('.glider'), {
   slidesToScroll: 1,
-  slidesToShow: 3.5,
+  slidesToShow: 2.5,
   draggable: true,
   dots: '.dots',
   arrows: {

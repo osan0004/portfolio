@@ -19,12 +19,11 @@ nav ul {
   position: relative;
   margin-bottom: -2.5rem;
 }
-
 .pic-grid-container {
   display: grid;
   width: 100%;
   height: 100%;
-  grid-template-areas: 
+  grid-template-areas:
     "pic-1 pic-2 pic-2 pic-3"
     "pic-4 pic-5 pic-6 pic-7"
     "pic-8 pic-8 pic-9 pic-9"
@@ -33,6 +32,65 @@ nav ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 1rem;
   column-gap: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.skip-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color:#FCF7EE;
+  color: black;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:hover{
+  color: #994505;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+nav li a,
+nav li a:link,
+nav li a:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: transform .5s;
+  transition-delay: .3s;
+}
+
+nav li :hover,
+nav li :focus {
+  transform: scale(1.25);
 }
 
 .img-container img {
@@ -207,4 +265,40 @@ hr{
   position: absolute;
   bottom: -85px;
   z-index: -1;
+}
+
+.send-btn{
+  padding-top: 3rem;
+}
+
+
+.back-to-top{
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: white;
+}
+
+.back-to-top:hover{
+  color: black;
+  transition: transform .5s ease-in;
+  transition-delay: .3s;
+}
+
+@media (max-width: 768px){
+  .hr-line-below{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .send-btn{
+    margin-bottom:2rem ;
+    padding: 1rem;
+  }
+
+  .footer-img{
+    margin-bottom: 0;
+    ;
+  }
 }
