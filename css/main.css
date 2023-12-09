@@ -41,10 +41,10 @@ nav ul {
     scroll-behavior: smooth;
   }
   
-  /* html, body {
+  html, body {
     max-width: 100%;
     overflow-x: hidden;
-} */
+}
 
   /* body {
     animation: fadeInAnimation ease 2s;
@@ -119,6 +119,7 @@ nav li :focus {
 .hero-text{
   position: relative;
   margin-bottom: -1.5rem;
+  font-size: 6rem;
 }
 
 .img-container img {
@@ -305,10 +306,35 @@ hr{
   skewY was 7deg*/
 }
 
+.about-intro{
+  padding-left: 10rem;
+  position: relative;
+  top: -3rem;
+}
+
+.my-name{
+  font-size: 7rem;
+  padding-left: 7rem;
+}
+
+.about-banner{
+  position: relative;
+  top: -8rem;
+  z-index: -1;
+}
+
+.about-img-2{
+  width: 70%;
+}
+
 .third-about-img{
   margin-top: 10rem;
 }
 
+.about-img-2-div{
+  display: flex;
+  justify-content: center;
+}
 
 .send-btn{
   display: flex;
@@ -345,13 +371,12 @@ hr{
   transition-delay: .1s;
 }
 
-/* .about-hero-sec{
-  display: flex;
-  justify-content: end;
-} */
+.about-hero-sec{
+
+}
 
 /* ---Tablet media querry ---*/
-@media (max-width: 1024px){
+@media screen and (max-width: 1200px){
   .bio{
     padding-top: 1rem;
     padding-left: 2rem;
@@ -385,12 +410,21 @@ hr{
 .form-message{
   height: 200%
 }
+
+.about-intro{
+  padding-left: 4rem;
+}
+
+.my-name{
+  font-size: 5rem;
+  padding-bottom: 4rem;
+}
+
 }
 
 
-
 /* ---mobile media querry ---*/
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
   .hr-line-below{
     display: flex;
     flex-direction: column;
@@ -410,23 +444,45 @@ hr{
   .about-intro{
     display: flex;
     order: 2;
+    /* padding-top: 3rem; */
+    padding: 3rem 6rem 8rem ;
+  }
+
+  .about-intro-2{
+    padding: 3rem 4rem 5rem ;
+
   }
 
   .my-name{
     font-size: 4rem;
-    position: absolute;
+    position: relative;
+    top: 2rem;
     color:#994505;
     display: flex;
     justify-content: start;
+   
   }
 
-.about-banner{
-  margin-top: 2rem;
+  .about-banner{
+    margin-top: 2rem;
+  }
+
+  .about-hero-sec{
+
+  }
+
+  .about-img-2{
+    width: 50%;
+  }
+
+  .about-img-2-div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
 }
 
-.about-hero-sec{
-  margin-top: 2rem;
-}
-
-
+@media screen and (max-width: 390px){
+  
 }
