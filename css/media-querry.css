@@ -1,5 +1,9 @@
 /* ---Tablet media querry ---*/
 @media screen and (max-width: 1200px) {
+  .active{
+    padding-top: 2rem;
+  }
+ 
   .bio {
     padding-top: 2rem;
     padding-left: 5rem;
@@ -51,7 +55,9 @@
     padding-right: 3rem;
   }
 
-  .about-img-2 {}
+  .third-about-img {
+    margin-top: 10rem;
+  }
 
   .about-intro-3 {
     padding: 2rem 2rem;
@@ -101,7 +107,10 @@
 
   .footer-img {
     margin-bottom: 0;
-    ;
+  }
+
+  .third-about-img {
+    margin-top: 10rem;
   }
 
   .about-intro {

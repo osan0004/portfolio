@@ -18,42 +18,61 @@
 
 <body>
    <header class="pt-4 container-lg">
+      <!--skip links-->
       <ul class="skip-links">
-        <li><a href="#welcome">Welcome Page</a></li>
-        <li><a href="#carousel">Carousel Menu</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact me</a></li>
+        <li><a href="#welcome" aria-label="skip to welcome page">Welcome Page</a></li>
+        <li><a href="#carousel" aria-label="skip to carousel menu">Carousel Menu</a></li>
+        <li><a href="#projects" aria-label="skip to projects">Projects</a></li>
+        <li><a href="#contact" aria-label="skip to contact">Contact me</a></li>
       </ul>
     
       <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="dark">
         <div class="container-lg">
-          <a class="navbar-brand" href="home.html">
+          <a class="navbar-brand" href="home.html" aria-label="go to home page">
             <!-- [Logo] -->
             <img class="logo" src="images/Main Logo.jpg" alt="my logo">
           </a>
-          <!--button-->
-          <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+         <!-- navbar-collapse button-->
+          <button 
+            class="navbar-toggler bg-secondary" 
+            aria-label="open navigation menu" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <!--list items-->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div 
+            class="collapse navbar-collapse" 
+            id="navbarSupportedContent">
             <ul class="nav d-flex justify-content-around flex-grow-1 align-items-center navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item ">
-                <a class=" active" aria-current="page" href="home.html">Home</a>
+                <a class="active" 
+                  aria-current="page" 
+                  href="home.html" 
+                  aria-label="go to home page">Home
+                </a>
               </li>
               <li class="nav-item">
-                <a class="" href="projects.html">Projects</a>
+                <a class="active" 
+                  href="projects.html" 
+                  aria-label="go to projects page">Projects
+                </a>
               </li>
               <li class="nav-item">
-                <a class="" href="about.html">About</a>
+                <a class="active" 
+                  href="about.html" 
+                  aria-label="go to about page">About
+                </a>
               </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+            </ul> <!--closes .nav-->
+          </div> <!--closes .navbar-collapse-->
+        </div> <!--closes .container-lg-->
+      </nav> <!--closes nav-->
+    </header> <!--closes header-->
 
    <main class="container-lg">
       <section class=" beige-bg bg-primary p-5">
@@ -134,8 +153,18 @@
               Let's work 
               <span class="line-break">together</span>
             </h2>
-            <p class="text-white pt-4">Email <br>doosandatuwa@gmail.com</p>
-            <p class="text-white">Icons</p>
+            <p class="text-white pt-4">Links<br>
+              <a itemprop="email" 
+              class="text-white " 
+              href="mailto:doosandatuwa@gmail.com"
+              aria-label="send email to david" 
+              target="_blank">doosandatuwa@gmail.com</a>
+              <br>
+              <a class="text-white" 
+              href="https://www.linkedin.com/in/david-osandatuwa/" 
+              aria-label="go to linkedin profile"
+              target="_blank">linkedin.com/in/david-osandatuwa</a>
+            </p>
           </div>
       
           <div class="form-div col-md-4">

@@ -13,10 +13,6 @@
   font-family: 'Spectral', serif;
 }
 
-.nav-header {
-  /* display: flex; */
-}
-
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -325,7 +321,7 @@ hr {
 }
 
 .third-about-img {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .about-img-2-div {
