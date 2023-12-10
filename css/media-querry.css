@@ -1,0 +1,174 @@
+/* ---Tablet media querry ---*/
+@media screen and (max-width: 1200px) {
+  .bio {
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+
+  .home-3rd-sec {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    padding-left: 2rem;
+    font-size: 4rem;
+  }
+
+  .location {
+    padding-top: 1rem;
+  }
+
+  #carousel {
+    padding-top: 1rem;
+  }
+
+  .welcome-projects {
+    width: 80%;
+  }
+
+  .footer-email {
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    padding-left: 0;
+  }
+
+  .line-break {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-message {
+    height: 200%
+  }
+
+  .about-intro {
+    padding-left: 4rem;
+    top: 0rem;
+    padding-top: 0;
+  }
+
+  .about-intro-2 {
+    padding-right: 3rem;
+  }
+
+  .about-img-2 {}
+
+  .about-intro-3 {
+    padding: 2rem 2rem;
+  }
+
+  .my-name {
+    font-size: 5rem;
+    position: relative;
+    top: 0;
+  }
+
+  .btn-container{
+    padding-bottom: 1rem;
+  }
+
+  .form-div{
+    padding: 0 1rem 1rem;
+  }
+}
+
+
+/* ---mobile media querry ---*/
+@media screen and (max-width: 768px) {
+  .hero-text{
+    font-size: 3rem;
+  }
+  
+  .hr-line-below {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #carousel {
+    padding-top: 3rem;
+  }
+
+  .home-3rd-sec {
+    font-size: 2rem;
+    padding: 0 3rem;
+  }
+
+
+  .send-btn {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .footer-img {
+    margin-bottom: 0;
+    ;
+  }
+
+  .about-intro {
+    display: flex;
+    order: 2;
+    /* padding-top: 3rem; */
+    padding: 3rem 6rem 6rem;
+  }
+
+  .about-intro-2 {
+    padding: 3rem 4rem 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-intro-3 {
+    padding: 0 4rem 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .my-name {
+    font-size: 4rem;
+    position: relative;
+    /* top: 7rem; */
+    color: #994505;
+  }
+
+  .about-banner {
+    margin-top: 2rem;
+  }
+
+  .about-hero-sec {
+    padding-top: 0;
+  }
+
+  .about-img-2 {
+    width: 50%;
+  }
+
+  .about-img-2-div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+.footer-email{
+  padding-left: 2rem;
+  padding: 0 2rem 2rem;
+}
+}
+
+/* iphone media querry */
+@media screen and (max-width: 576px) {
+ .hero-text{
+  font-size: 2.2rem;
+ }
+
+ .bio{
+  padding: 1rem 2rem 1rem;
+ }
+
+ .logo{
+  width: 50%;
+ }
+
+ .footer-email{
+  padding-top: 0;
+ }
+}

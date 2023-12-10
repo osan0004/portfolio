@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
   <!-- custom css -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/media-querry.css">
 </head>
 
 <body>
@@ -23,12 +25,12 @@
   
     <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="dark">
       <div class="container-lg">
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand" href="home.html">
           <!-- [Logo] -->
           <img class="logo" src="images/Main Logo.jpg" alt="my logo">
         </a>
         <!--button-->
-        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -110,11 +112,11 @@
       <div class="welcome-projects container-lg">
         <div class="row">
           <div class="projects-link col-md-6">
-            <li class="buttons portrait-event-link"><a href="projects.html">For portraits</a></li>
+            <li class=" portrait-event-link"><a href="projects.html">For portraits</a></li>
             <img class="w-100" src="images/Beauty shot Victory.jpg"  alt="Beauty shot of victory" >
           </div>
           <div class="projects-link col-md-6">
-            <li class="buttons portrait-event-link "><a href="projects.html">For events</a></li>
+            <li class=" portrait-event-link "><a href="projects.html">For events</a></li>
             <img class="w-100" src="images/Fiyin b&w crop.jpg" alt="Fiyin bday b&w">
           </div>
         </div>
@@ -129,8 +131,8 @@
           <img class="footer-img w-100 pb-5" src="images/silhouette-2.jpg" alt="silhouette">
         </div>
     
-        <div class="footer-email col-md-4 mt-5">
-          <h2 class=" text-white">
+        <div class="footer-email col-md-4 ">
+          <h2 class="display-6 text-white">
             Let's work 
             <span class="line-break">together</span>
           </h2>
@@ -138,10 +140,10 @@
           <p class="text-white">Icons</p>
         </div>
     
-        <div class="col-md-4">
-          <p class="text-white">Get in touch</p>
+        <div class="form-div col-md-4">
+          <p class="text-white pt-2">Get in touch</p>
           <form action="mailto:doosandatuwa@gmail.com" method="post" enctype="text/plain">
-            <div class="form d-flex gap-2">
+            <div class="form ">
               <!-- <div class="full-name">
                       <label class="form-label" for="fname"> Name </label>
                     </div> -->
@@ -155,7 +157,7 @@
               <div class="flex-grow-1">
                 <input class="input-max-width" id="age" type="text" name="Email" placeholder="Email">
               </div>
-            </div><!--div closing Form-->
+            </div>
             <!-- <div class="form-message">
                     <label class="form-label" for="your-message"> Message</label>
                   </div> -->
@@ -165,22 +167,19 @@
             <div class="btn-container">
               <button class="send-btn" type="submit">Send</button>
             </div>
-          </form>
+          </form><!--div closing Form-->
         </div>
         <hr class="border-2 text-white">
         <div class="hr-line-below">
           <p class="hr-p d-flex justify-content-center text-white">
-            My work is a representation of my passion and love for photography/videography, I shoot with the aim of<br> 
-          </p>
-          <p class="hr-p d-flex justify-content-center text-white">
-            passing across that same passion through my photos to each client I work with.
+            My work is a representation of my passion and love for photography/videography, I shoot with the aim of passing across that same passion through my photos to each client I work with.
           </p>
           <p class="hr-p d-flex justify-content-center text-white">
             © DAVID MEDIA, 2023
           </p>
-          <p>
+          <span>
             <a class="back-to-top" href="#top" aria-label="Go back to the top">Back to Top</a>
-          </p>
+          </span>
 
         </div>
       </div>
