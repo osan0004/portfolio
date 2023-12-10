@@ -1,19 +1,19 @@
-:root{
+:root {
   --bs-primary: #FCF7EE;
   --bs-secondary: #994505;
   --bs-primary-rgb: 252, 247, 238;
---bs-secondary-rgb: 153, 69, 5;
+  --bs-secondary-rgb: 153, 69, 5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Spectral:ital,wght@0,200;0,300;0,600;1,400;1,600&display=swap');
 
-*{
+* {
   font-family: 'Merriweather', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Spectral', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Spectral', serif;
 }
 
-.nav-header{
+.nav-header {
   /* display: flex; */
 }
 
@@ -32,21 +32,22 @@ nav ul {
     "pic-8 pic-8 pic-9 pic-9"
     "pic-10 pic-11 pic-12 pic-13"
     "pic-14 pic-14 pic-15 pic-15";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 1rem;
-    column-gap: 1rem;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
 
-  /* body {
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -71,14 +72,14 @@ nav ul {
   position: absolute;
   z-index: 1;
   top: -3em;
-  background-color:#FCF7EE;
+  background-color: #FCF7EE;
   color: black;
   padding: .5em 1em;
   font-weight: bold;
   text-decoration: none;
 }
 
-.skip-links a:hover{
+.skip-links a:hover {
   color: #994505;
 }
 
@@ -97,7 +98,7 @@ nav li a:visited {
   transition-delay: .2s;
 }
 
-nav li a:hover{
+nav li a:hover {
   color: #994505;
 }
 
@@ -108,24 +109,26 @@ nav li :focus {
 }
 
 
-.logo{
+.logo {
   width: 80%;
 }
 
-.bio{
+.bio {
   padding-top: 2rem;
-  padding-left: 5rem;
-
+  padding-left: 7rem;
 }
 
-.bio-text{
-}
 
-.location{
+
+.location {
   padding-top: 4rem;
 }
 
-.hero-text{
+.home-3rd-sec {
+  font-size: 3rem;
+}
+
+.hero-text {
   position: relative;
   margin-bottom: -1.5rem;
   font-size: 5rem;
@@ -140,13 +143,13 @@ nav li :focus {
 
 .portrait-event-link a:hover,
 .portrait-event-link :focus {
-  background-color:#994505;
+  background-color: #994505;
   transition-delay: .1s;
   transform: scale(0.9);
   color: white;
 }
 
-.portrait-event-link{
+.portrait-event-link {
   padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
@@ -156,7 +159,7 @@ nav li :focus {
   margin-bottom: .5rem;
 }
 
-.portrait-event-link a{
+.portrait-event-link a {
   display: flex;
   justify-content: center;
   border: 2px solid black;
@@ -167,11 +170,11 @@ nav li :focus {
   transition: .3s ease-in-out;
 }
 
-.projects-link{
+.projects-link {
   padding: 1rem;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
   color: inherit;
 }
@@ -248,83 +251,83 @@ nav li :focus {
   width: 100%;
 } */
 
-.footer-container{
+.footer-container {
   background-color: #994505;
 }
 
-.footer-img{
+.footer-img {
   padding: 1rem;
   width: 100%;
 }
 
-.footer-section{
+.footer-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.footer-email{
+.footer-email {
   padding: 6rem 0;
 }
 
-.footer-form{
+.footer-form {
   padding-top: 2rem;
 }
 
-.input-max-width{
+.input-max-width {
   height: 3rem;
   padding: 1rem;
   width: 100%;
 }
 
-.form-message{
+.form-message {
   padding: 1rem;
 }
 
-hr{
+hr {
   width: 100%;
 }
 
-.footer-copywrite{
+.footer-copywrite {
   display: flex;
   justify-content: center;
 }
 
-.form{
+.form {
   display: flex;
   gap: 1rem;
 }
 
 
-.skewer{
- z-index: 1;
- width: 100%;
- position: relative;
- margin-top: 50rem;
- margin-top: 0;
+.skewer {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  margin-top: 50rem;
+  margin-top: 0;
 }
 
-.skewer::after{
+.skewer::after {
   width: 100%;
   height: 200px;
-  background-color:#994505;
+  background-color: #994505;
   content: "";
   transform: skewY(4deg);
   position: absolute;
-  bottom: -100px;  
+  bottom: -100px;
   z-index: -1;
   /* was bottom -85 
   skewY was 7deg*/
 }
 
-.about-intro{
+.about-intro {
   padding-left: 10rem;
 }
 
-.about-intro-3{
+.about-intro-3 {
   padding-top: 10rem;
 }
 
-.my-name{
+.my-name {
   font-size: 7rem;
   padding-left: 7rem;
   position: relative;
@@ -332,24 +335,22 @@ hr{
   /* z-index: -1; */
 }
 
-.about-banner{
+.about-banner {}
 
-}
-
-.about-img-2{
+.about-img-2 {
   width: 70%;
 }
 
-.third-about-img{
+.third-about-img {
   margin-top: 10rem;
 }
 
-.about-img-2-div{
+.about-img-2-div {
   display: flex;
   justify-content: center;
 }
 
-.send-btn{
+.send-btn {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -359,19 +360,18 @@ hr{
 
 }
 
-.send-btn:hover{
-}
+.send-btn:hover {}
 
-.btn-container{
-  flex-direction:row-reverse ;
+.btn-container {
+  flex-direction: row-reverse;
   justify-content: end;
 }
 
-.message-box{
+.message-box {
   padding-top: 1rem;
 }
 
-.back-to-top{
+.back-to-top {
   display: flex;
   justify-content: end;
   text-decoration: none;
@@ -379,145 +379,172 @@ hr{
   transition: .3s ease-in-out;
 }
 
-.back-to-top:hover{
+.back-to-top:hover {
   color: black;
   transition-delay: .1s;
 }
 
-.about-hero-sec{
-
-}
+.about-hero-sec {}
 
 /* ---Tablet media querry ---*/
-@media screen and (max-width: 1024px){
-  .bio{
-    padding-top: 1rem;
-    padding-left: 2rem;
-    /* background-color: red; */
+@media screen and (max-width: 1024px) {
+  .bio {
+    padding-top: 2rem;
+    padding-left: 5rem;
   }
-  
-.hero-text{
-  padding-left: 2rem;
-  font-size: 4rem;
-}
 
-.location{
-  padding-top: 1rem;
-}
+  .home-3rd-sec {
+    font-size: 2rem;
+  }
 
-#carousel{
-  padding-top:1rem;
-}
+  .hero-text {
+    padding-left: 2rem;
+    font-size: 4rem;
+  }
 
-.welcome-projects{
-  width: 80%;
-}
+  .location {
+    padding-top: 1rem;
+  }
 
-.footer-email{
-  padding-top: 0;
-}
+  #carousel {
+    padding-top: 1rem;
+  }
 
-.line-break{
-  display: flex;
-  flex-wrap: wrap;
-}
+  .welcome-projects {
+    width: 80%;
+  }
 
-.form-message{
-  height: 200%
-}
+  .footer-email {
+    padding-top: 0;
+  }
 
-.about-intro{
-  padding-left: 4rem;
-  top: 0rem;
-  padding-top: 0;
-}
+  .line-break {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.about-intro-2{
-  padding-right: 3rem;
-}
+  .form-message {
+    height: 200%
+  }
 
-.about-img-2{
-}
+  .about-intro {
+    padding-left: 4rem;
+    top: 0rem;
+    padding-top: 0;
+  }
 
-.about-intro-3{
- padding: 2rem 2rem;
-}
+  .about-intro-2 {
+    padding-right: 3rem;
+  }
 
-.my-name{
-  font-size: 5rem;
-  position: relative;
-  top: 0;
-}
+  .about-img-2 {}
+
+  .about-intro-3 {
+    padding: 2rem 2rem;
+  }
+
+  .my-name {
+    font-size: 5rem;
+    position: relative;
+    top: 0;
+  }
 
 }
 
 
 /* ---mobile media querry ---*/
-@media screen and (max-width: 768px){
-  .hr-line-below{
+@media screen and (max-width: 768px) {
+  .hero-text{
+    font-size: 3rem;
+  }
+  
+  .hr-line-below {
     display: flex;
     flex-direction: column;
-    
   }
 
-  .send-btn{
-    margin-bottom:2rem ;
+  #carousel {
+    padding-top: 3rem;
+  }
+
+  .home-3rd-sec {
+    font-size: 2rem;
+    padding: 0 3rem;
+  }
+
+
+  .send-btn {
+    margin-bottom: 2rem;
     padding: 1rem;
   }
 
-  .footer-img{
+  .footer-img {
     margin-bottom: 0;
     ;
   }
 
-  .about-intro{
+  .about-intro {
     display: flex;
     order: 2;
     /* padding-top: 3rem; */
-    padding: 3rem 6rem 6rem ;
+    padding: 3rem 6rem 6rem;
   }
 
-  .about-intro-2{
-    padding: 3rem 4rem 4rem ;
+  .about-intro-2 {
+    padding: 3rem 4rem 4rem;
     display: flex;
     justify-content: center;
   }
 
-  .about-intro-3{
-    padding: 0 4rem 5rem ;
+  .about-intro-3 {
+    padding: 0 4rem 5rem;
     display: flex;
     justify-content: center;
   }
 
-  .my-name{
+  .my-name {
     font-size: 4rem;
     position: relative;
     /* top: 7rem; */
-    color:#994505;
+    color: #994505;
   }
 
-  .about-banner{
+  .about-banner {
     margin-top: 2rem;
   }
 
-  .about-hero-sec{
+  .about-hero-sec {
     padding-top: 0;
   }
 
-  .about-img-2{
+  .about-img-2 {
     width: 50%;
   }
 
-  .about-img-2-div{
+  .about-img-2-div {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
   }
 
+  .buttons{
+    width: 50%;
+    display: flex;
+    justify-content: center ;
+  }
 }
 
-@media screen and (max-width: 390px){
-  /* .my-name{
-    font-size: 3rem;
-  } */
+@media screen and (max-width: 390px) {
+ .hero-text{
+  font-size: 2.2rem;
+  background-color: red;
+ }
+
+ .bio{
+  padding: 1rem 1rem 1rem;
+ }
+
+ .logo{
+  width: 50%;
+ }
 }
