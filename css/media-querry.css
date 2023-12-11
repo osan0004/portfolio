@@ -83,7 +83,7 @@
 
   /* ----------PROJECTS PAGE------------ */
   .project-h1{
-    font-size: 4rem;
+    font-size: 5.5rem;
   }
   
   .project-h2{
@@ -198,8 +198,7 @@
 
  /* ----------PROJECTS PAGE------------ */
  .project-h1{
-  font-size: 3rem;
-  /* background-color: blue; */
+    font-size: 3rem;
   }
 
   .project-h2 {
@@ -254,8 +253,11 @@
 
  .my-name{
   font-size: 3.5rem;
-
  }
+
+ .project-h1{
+  font-size: 2.5rem;
+}
 
  .footer-email{
   padding-top: 0;
