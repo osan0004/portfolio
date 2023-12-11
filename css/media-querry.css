@@ -90,6 +90,26 @@
     font-size: 1.4rem;
   }
 
+  
+  .pic-grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+      "pic-1 pic-2"
+      "pic-3 pic-4 pic-5"
+      "pic-6 pic-7 pic-7"
+      "pic-8 pic-9 pic-9"
+      "pic-10 pic-11 pic-12"
+      "pic-13 pic-14 pic-14"
+      "pic-15";
+    grid-template-columns: 1fr ;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+
+ 
+
 }
 
 
@@ -178,17 +198,38 @@
 
  /* ----------PROJECTS PAGE------------ */
  .project-h1{
-  font-size: 3.3rem;
+  font-size: 3rem;
   /* background-color: blue; */
   }
 
   .project-h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .project-skip-btn {
     font-size: 1rem;
     text-align: center;
+    height: 100%;
+  }
+
+  .pic-grid-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+      "pic-1 pic-3"
+      "pic-2 pic-2"
+      "pic-4 pic-5"
+      "pic-8 pic-8"
+      "pic-7 pic-6"
+      "pic-9 pic-9"
+      "pic-10 pic-11"
+      "pic-12 pic-13"
+      "pic-14 pic-14"
+      "pic-15 pic-15";
+    grid-template-columns:1fr 1fr;
+    row-gap: .8rem;
+    column-gap: .8rem;
   }
 
 }
