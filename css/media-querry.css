@@ -80,6 +80,16 @@
   .form-div{
     padding: 0 1rem 1rem;
   }
+
+  /* ----------PROJECTS PAGE------------ */
+  .project-h1{
+    font-size: 4rem;
+  }
+  
+  .project-h2{
+    font-size: 1.4rem;
+  }
+
 }
 
 
@@ -137,7 +147,7 @@
   }
 
   .my-name {
-    font-size: 4rem;
+    font-size: 5rem;
     position: relative;
     /* top: 7rem; */
     color: #994505;
@@ -161,10 +171,26 @@
     padding-bottom: 2rem;
   }
 
-.footer-email{
+  .footer-email{
   padding-left: 2rem;
   padding: 0 2rem 2rem;
-}
+  }
+
+ /* ----------PROJECTS PAGE------------ */
+ .project-h1{
+  font-size: 3.3rem;
+  /* background-color: blue; */
+  }
+
+  .project-h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-skip-btn {
+    font-size: 1rem;
+    text-align: center;
+  }
+
 }
 
 /* iphone media querry */
@@ -183,6 +209,11 @@
 
  .logo{
   width: 50%;
+ }
+
+ .my-name{
+  font-size: 3.8rem;
+
  }
 
  .footer-email{
