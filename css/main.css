@@ -68,6 +68,10 @@ body {
   top: 0;
 }
 
+nav a {
+  padding: 2em;
+}
+
 nav li a,
 nav li a:link,
 nav li a:visited {
@@ -81,6 +85,11 @@ nav li a:visited {
 
 nav li a:hover {
   color: #994505;
+}
+
+.navbar-toggler{
+  border: solid 1px black;
+  background-color: black;
 }
 
 nav li :hover,
@@ -154,6 +163,15 @@ nav li :focus {
 
 .projects-link {
   padding: 1rem;
+}
+
+.saturation{
+  filter: grayscale(0%) brightness(0.95);
+  transition: filter 0.3s cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+.saturation:hover{
+  filter: grayscale(50%) brightness(0.95);
 }
 
 .nav a {
@@ -299,7 +317,7 @@ hr {
 }
 
 .about-intro {
-  padding-left: 10rem;
+  padding-left: 15rem;
 }
 
 .about-intro-3 {
@@ -308,7 +326,7 @@ hr {
 
 .my-name {
   font-size: 7rem;
-  padding-left: 7rem;
+  padding-left: 12rem;
   position: relative;
   top: 3rem;
   /* z-index: -1; */
@@ -372,5 +390,4 @@ hr {
   transition-delay: .1s;
 }
 
-.about-hero-sec {}
 
