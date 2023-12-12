@@ -1,0 +1,14 @@
+:root {
+  --bs-primary: #FCF7EE;
+  --bs-secondary: #994505;
+  --bs-primary-rgb: 252, 247, 238;
+  --bs-secondary-rgb: 153, 69, 5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Spectral:ital,wght@0,200;0,300;0,600;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Spectral', serif;
+}
