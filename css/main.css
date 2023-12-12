@@ -353,10 +353,8 @@ hr {
   padding-left: 12rem;
   position: relative;
   top: 3rem;
-  /* z-index: -1; */
+  z-index: 2;
 }
-
-.about-banner {}
 
 .about-img-2 {
   width: 70%;
