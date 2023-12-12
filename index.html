@@ -88,7 +88,24 @@
           <hr>
         </div>
         <div class=" col-md-3 col-sm-6">
-          <img class="colored-of-me w-100" src="images/colored of me.jpg" alt="colored image of me">
+          <picture>
+            <source
+              srcset="images/colored-of-me-480_x_720.jpg"
+              media="(max-width: 390px)"
+            />
+            <source
+              srcset="images/colored-of-me-720_x_1080.jpg"
+              media="(max-width: 720px)"
+            />
+            <source
+              srcset="images/colored-of-me-1080_x_1620.jpg"
+              media="(max-width: 1080px)"
+            />
+            <img 
+            class="colored-of-me w-100" 
+            src="images/colored of me-720_x_1080.jpg" 
+            alt="colored image of me">
+          </picture>
           <p class="pt-2 d-flex justify-content-center pb-4">Fun Young and full of energy</p>
         </div>
         <div class=" col-md-3 col-sm-6">
@@ -142,11 +159,6 @@
                 <img class="saturation-2 w-100" src="images/Fiyin b&w crop.jpg" alt="Fiyin bday b&w">
               </a>
             </div>
-
-            <div data-aos="fade-up"
-            data-aos-duration="3000">
-            </div>
-
           </div>
         </div> <!--closes .row-->
     </section>
