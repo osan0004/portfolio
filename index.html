@@ -84,7 +84,7 @@
             photographer/videographer
             based in Ottawa, Ontario.
           </h3>
-          <p class=" location d-flex justify-content-center">OTTAWA, ONTARIO & BEYOND</p>
+          <p class=" location d-flex justify-content-center">OTTAWA, ONTARIO</p>
           <hr>
         </div>
         <div class=" col-md-3 col-sm-6">
@@ -102,14 +102,32 @@
               media="(max-width: 1080px)"
             />
             <img 
-            class="colored-of-me w-100" 
-            src="images/colored of me-720_x_1080.jpg" 
-            alt="colored image of me">
+              class="colored-of-me w-100" 
+              src="images/colored-of-me-720_x_1080.jpg" 
+              alt="colored image of me"
+            >
           </picture>
           <p class="pt-2 d-flex justify-content-center pb-4">Fun Young and full of energy</p>
         </div>
         <div class=" col-md-3 col-sm-6">
-          <img class="bw-of-me w-100" src="images/b&w of me.jpg" alt="b&w image of me">
+          <picture>
+            <source
+              srcset="images/b&w-of-me-480_x_476.jpg"
+              media="(max-width: 390px)"
+            />
+            <source
+              srcset="images/b&w-of-me-720_x_714.jpg"
+              media="(max-width: 720px)"
+            />
+            <source
+              srcset="images/b&w-of-me-1080_x_1072.jpg"
+              media="(max-width: 1080px)"
+            />
+            <img class="bw-of-me w-100" 
+              src="images/b&w-of-me-720_x_714.jpg" 
+              alt="b&w image of me"
+            >
+          </picture>
         </div>
       </div>
     </section>
