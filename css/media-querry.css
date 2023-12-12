@@ -263,3 +263,16 @@
   padding-top: 0;
  }
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Styles */
+  :root {
+    --bs-primary: rgb(212, 223, 206);
+    --bs-primary-rgb: 212, 223, 206;
+  }
+
+  .skewer::after {
+    /* background-color:#d4dfce ; */
+  }
+}
+

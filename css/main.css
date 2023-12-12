@@ -95,8 +95,6 @@ nav li :focus {
   padding-left: 7rem;
 }
 
-
-
 .location {
   padding-top: 4rem;
 }
@@ -235,7 +233,6 @@ nav li :focus {
 }
 
 
-
 .saturation{
   filter: grayscale(0%) brightness(0.95);
   transition: filter 0.5s cubic-bezier(0.85, 0, 0.15, 1);
@@ -245,23 +242,21 @@ nav li :focus {
   filter: grayscale(50%) brightness(0.95);
 }
 
+.saturation-2{
+  transition: transform .5s;
+  transition: .3s ease-in-out;
+  opacity: 1;
+}
+
+.saturation-2:hover{
+  opacity: .9;
+  transition-delay: .1s;
+}
+
 .nav a {
   text-decoration: none;
   color: inherit;
 }
-
-/* .bw-of-me:hover{
-}
-
-.colored-of-me:hover{
-  filter: saturate(0);
-} */
-
-
-
-/* .img-1{
-  width: 100%;
-} */
 
 .footer-container {
   background-color: #994505;
