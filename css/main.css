@@ -294,13 +294,10 @@ hr {
   width: 100%;
 }
 
-
-
 .form {
   display: flex;
   gap: 1rem;
 }
-
 
 .skewer {
   z-index: 1;
