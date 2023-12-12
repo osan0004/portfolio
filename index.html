@@ -61,7 +61,7 @@
   </header> <!--closes header-->
 
   <main id="main-content">
-    <section class="container-fluid container-lg d-grid">
+    <section class="container-lg d-grid">
       <div class="row column-gap-0">
         <h1 class="animate__animated animate__lightSpeedInLeft hero-text col-12 mt-5 ">
           Welcome To My Page
@@ -84,7 +84,7 @@
           </picture>
           <p class="pt-2 d-flex justify-content-center pb-4">Fun Young and full of energy</p>
         </div>
-        <div class=" col-md-3 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <picture>
             <source srcset="images/b&w-of-me-480_x_476.jpg" media="(max-width: 390px)" />
             <source srcset="images/b&w-of-me-720_x_714.jpg" media="(max-width: 720px)" />
@@ -92,12 +92,12 @@
             <img class="bw-of-me w-100" src="images/b&w-of-me-720_x_714.jpg" alt="b&w image of me">
           </picture>
         </div>
-      </div>
-    </section>
+      </div> <!--closes row-->
+    </section> <!--closes container-lg-->
 
     <!-- carousel menu -->
     <section>
-      <div class="glider-contain">
+      <div>
         <div class="glider">
           <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
           <div><img src="images/dude in air 2-1.jpg" class="d-block w-100" alt="dude in air"></div>
@@ -139,12 +139,13 @@
             <a href="projects.html" aria-label="go to projects page">
               <img class="saturation-2 w-100" src="images/Fiyin b&w crop.jpg" alt="Fiyin bday b&w">
             </a>
-          </div>
-        </div>
-      </div> <!--closes .row-->
-    </section>
+          </div> <!--closes project-link-->
+        </div> <!--closes row-->
+      </div> <!--closes animate__animated -->
+    </section> <!-- closes beige-bg-->
   </main>
 
+  <!--Footer-->
   <footer id="contact" class="footer bg-secondary pt-5">
     <section class="container-lg">
       <div class="row">
@@ -169,30 +170,20 @@
             <a class="external-link text-white" href="https://www.instagram.com/beekeer08/"
               aria-label="go to my instagram" target="_blank">Instagram
             </a>
-          </p>
-        </div>
+          </p> <!--closes text-white-->
+        </div> <!--closes .footer-email-->
 
         <div class="form-div col-md-4">
           <p class="text-white pt-2">Get in touch</p>
           <form action="mailto:doosandatuwa@gmail.com" method="post" enctype="text/plain">
             <div class="form ">
-              <!-- <div class="full-name">
-                      <label class="form-label" for="fname"> Name </label>
-                    </div> -->
               <div class="flex-grow-1">
                 <input class="input-max-width" id="fname" type="text" name="fname" placeholder="Name">
               </div>
-
-              <!-- <div class="form-email">
-                      <label class="form-label" for="age"> Email </label>
-                    </div> -->
               <div class="flex-grow-1">
                 <input class="input-max-width" id="age" type="text" name="Email" placeholder="Email">
               </div>
             </div>
-            <!-- <div class="form-message">
-                    <label class="form-label" for="your-message"> Message</label>
-                  </div> -->
             <div class="message-box">
               <textarea class="form-message w-100" id="your-message" placeholder="Message" rows="6"></textarea>
             </div>
@@ -200,7 +191,7 @@
               <button class="send-btn" type="submit">Send</button>
             </div>
           </form><!--div closing Form-->
-        </div>
+        </div> <!--closes .form-grid-->
         <hr class="border-2 text-white">
         <div class="hr-line-below">
           <p class="hr-p d-flex justify-content-center text-white">
@@ -213,10 +204,10 @@
           <span>
             <a class="back-to-top" href="#top" aria-label="Go back to the top">Back to Top</a>
           </span>
-        </div>
-      </div>
-    </section>
-  </footer>
+        </div> <!--closes .hr-line-below-->
+      </div> <!--closes row-->
+    </section> <!--closes container-lg-->
+  </footer> <!--closes footer-->
 
   <!--carousel JS -->
   <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
