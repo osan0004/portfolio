@@ -100,6 +100,11 @@ nav li :focus {
   object-fit: cover;
 }
 
+.btn-padding{
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
 .portrait-event-link a:hover,
 .portrait-event-link :focus {
   background-color: #994505;
