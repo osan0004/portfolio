@@ -1,9 +1,5 @@
 /* ---Tablet media querry ---*/
-@media screen and (max-width: 1200px) {
-  .active{
-    padding-top: 2rem;
-  }
- 
+@media screen and (max-width: 1200px) { 
   nav a {
     padding: 0;
   }
@@ -23,10 +19,6 @@
   }
 
   .location {
-    padding-top: 1rem;
-  }
-
-  #carousel {
     padding-top: 1rem;
   }
 
@@ -119,8 +111,8 @@
     flex-direction: column;
   }
 
-  #carousel {
-    padding-top: 3rem;
+  .glider {
+    padding-top: 2rem;
   }
 
   .home-3rd-sec {
