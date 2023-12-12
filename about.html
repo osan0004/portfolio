@@ -77,7 +77,12 @@
           meaningful.
         </h4> <!--closes about-intro-->
         <div class="animate__animated animate__fadeInUp col-md-6">
-          <img class="w-100" src="images/b&w-of-me-720_x_714.jpg" alt="b&w image of me">
+          <picture>
+            <source srcset="images/b&w-of-me-480_x_476.jpg" media="(max-width: 390px)" />
+            <source srcset="images/b&w-of-me-720_x_714.jpg" media="(max-width: 720px)" />
+            <source srcset="images/b&w-of-me-1080_x_1072.jpg" media="(max-width: 1080px)" />
+            <img class="w-100" src="images/b&w-of-me-720_x_714.jpg" alt="b&w image of me">
+          </picture>
         </div>
       </div> <!--closes .about-hero-sec-->
     </section>
@@ -86,7 +91,12 @@
       <div class="container-lg ">
         <div class="row d-flex align-items-center">
           <div class="about-img-2-div col-md-6 ">
-            <img class="about-img-2 pt-5" src="images/colored-of-me-720_x_1080.jpg" alt="colored pic of me">
+            <picture>
+              <source srcset="images/colored-of-me-480_x_720.jpg" media="(max-width: 390px)" />
+              <source srcset="images/colored-of-me-720_x_1080.jpg" media="(max-width: 720px)" />
+              <source srcset="images/colored-of-me-1080_x_1620.jpg" media="(max-width: 1080px)" />
+              <img class="about-img-2 pt-5" src="images/colored-of-me-720_x_1080.jpg" alt="colored image of me">
+            </picture>
           </div>
 
           <h4 class="about-intro-2 col-md-6  text-white ">
