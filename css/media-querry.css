@@ -89,7 +89,6 @@
   .project-h2{
     font-size: 1.4rem;
   }
-
   
   .pic-grid-container {
     display: grid;
@@ -107,11 +106,7 @@
     row-gap: .8rem;
     column-gap: .8rem;
   }
-
- 
-
 }
-
 
 /* ---mobile media querry ---*/
 @media screen and (max-width: 768px) {
@@ -230,7 +225,6 @@
     row-gap: .8rem;
     column-gap: .8rem;
   }
-
 }
 
 /* iphone media querry */
