@@ -13,6 +13,7 @@ Amongst many of the challenges I faced, the most consistent was CSS, I find CSS 
 ## Frameworks & Libraries Used
 - [Bootsrap](https://getbootstrap.com/)
 - [Animate.css](https://animate.style/)
+- [Glider.js](https://nickpiscitelli.github.io/Glider.js/)
 
 ## External Resources 
 - [Spectral Google Font](https://fonts.google.com/specimen/Spectral)
