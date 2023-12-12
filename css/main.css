@@ -1,3 +1,10 @@
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  padding: 0 .5rem;
+  display: flex;
+  align-items: center;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -102,6 +109,25 @@ nav li :focus {
   padding-left: 0;
   padding-bottom: 0;
 }
+
+/* .glider-prev{
+  position: absolute;
+  bottom: 0;
+  padding-top: 50rem;
+  padding-left: 6rem;
+  color: red;
+  z-index: 10;
+}
+
+.glider-next{
+  position: relative;
+  padding-left: 25rem;
+  color: red;
+}
+
+.material-symbols-outlined{
+  font-size: 3rem;
+} */
 
 .portrait-event-link a:hover,
 .portrait-event-link :focus {
