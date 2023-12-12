@@ -103,7 +103,7 @@
 /* ---mobile media querry ---*/
 @media screen and (max-width: 768px) {
   .hamburgar{
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
  
   .hero-text{
