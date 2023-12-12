@@ -1,7 +1,7 @@
 /* ---Tablet media querry ---*/
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 75rem) { 
   nav a {
-    padding: 0;
+    padding: 1rem;
   }
 
   .bio {
@@ -101,11 +101,11 @@
 }
 
 /* ---mobile media querry ---*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .hamburgar{
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
- 
+
   .hero-text{
     font-size: 3rem;
   }
@@ -187,6 +187,10 @@
   }
 
  /* ----------PROJECTS PAGE------------ */
+ .hamburgar{
+  padding-top: 2rem;
+}
+ 
  .project-h1{
     font-size: 3rem;
   }
@@ -223,7 +227,7 @@
 }
 
 /* iphone media querry */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 36rem) {
  .hero-text{
   font-size: 2.2rem;
  }
