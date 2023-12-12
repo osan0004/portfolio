@@ -16,14 +16,12 @@
   <link rel="stylesheet" href="css/media-querry.css">
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/Person">
   <header class="pt-4 container-lg">
     <!--skip links-->
     <ul class="skip-links">
-      <li><a href="#welcome" aria-label="skip to welcome page">Welcome Page</a></li>
-      <li><a href="#carousel" aria-label="skip to carousel menu">Carousel Menu</a></li>
-      <li><a href="#projects" aria-label="skip to projects">Projects</a></li>
-      <li><a href="#contact" aria-label="skip to contact">Contact me</a></li>
+      <li><a href="#main-content" aria-label="skip to welcome page">Skip to Main</a></li>
+      <li><a href="#contact" aria-label="skip to contact">Skip to Contact Me</a></li>
     </ul>
   
     <nav class="navbar navbar-expand-lg bg-white" data-bs-theme="dark">
@@ -74,8 +72,8 @@
     </nav> <!--closes nav-->
   </header> <!--closes header-->
 
-  <main>
-    <section id="welcome" class="container-fluid container-lg d-grid">
+  <main id="main-content">
+    <section class="container-fluid container-lg d-grid">
       <div class="row column-gap-0">
         <h1 class="hero-text col-12 mt-5 ">
           Welcome To My Page
@@ -100,7 +98,7 @@
     </section>
 
     <!-- carousel menu -->
-    <section id="carousel">
+    <section>
       <div class="glider-contain">
         <div class="glider">
           <div><img src="images/Perpy-CA building.jpg" class="d-block w-100" alt="perpy at CA building"></div>
@@ -129,7 +127,7 @@
       </div>
     </section>
 
-    <section id="projects" class="beige-bg bg-primary pb-5 pt-5">
+    <section class="beige-bg bg-primary pb-5 pt-5">
         <div class="welcome-projects container-lg">
           <div class="row">
             <div class="projects-link col-md-6">
