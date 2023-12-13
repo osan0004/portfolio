@@ -83,7 +83,8 @@
   }
   
   .yt-embed{
-    width: 100%;
+    width: 35rem;
+    height: 20rem;
   }
 
   .pic-grid-container {
@@ -210,8 +211,9 @@
   }
 
   .yt-embed{
-    width: 100%;
-    /* padding: 1rem .5rem 1rem; */
+    padding: 0rem 2rem 0rem;
+    width: 35rem;
+    height: 20rem;
   }
 
   .pic-grid-container {
@@ -254,11 +256,15 @@
  }
 
  .my-name{
-  font-size: 3.5rem;
+  font-size: 3.2rem;
  }
 
  .yt-embed{
   width: 100%;
+  width: 30rem;
+  height: 18rem;
+  padding: 0rem 3.5rem 0rem;
+
 }
 
  .project-h1{
@@ -275,6 +281,9 @@
   :root {
     --bs-primary: #FCF7EE;
     --bs-primary-rgb: 252, 247, 238;
+    --bs-secondary: #575757;
+    --bs-secondary-rgb: 87, 87, 87;
+
   }
 
   .skewer::after {
