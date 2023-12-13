@@ -217,7 +217,12 @@
    <section class="container-lg">
      <div class="row">
        <div class="col-md-4 ">
-         <img class="footer-img w-100 pb-5" src="images/silhouette-2.jpg" alt="silhouette">
+         <picture>
+            <source srcset="images/silhouette-2-480_x_706.jpg" media="(max-width: 390px)" />
+            <source srcset="images/silhouette-2-720_x_1059.jpg" media="(max-width: 720px)" />
+            <source srcset="images/silhouette-2-1080_x_1588.jpg" media="(max-width: 1080px)" />
+            <img class="footer-img w-100 pb-5" src="images/silhouette-2-720_x_1059.jpg" alt="silhouette">
+          </picture>
        </div>
 
        <div class="footer-email col-md-4 ">
