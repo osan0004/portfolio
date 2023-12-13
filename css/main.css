@@ -183,6 +183,17 @@ nav li :focus {
   column-gap: 1rem;
 }
 
+.youtube{
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.yt-embed{
+  width: 35rem;
+  height: 20rem;
+}
+
 .pic-1 {
   grid-area: pic-1;
 }
