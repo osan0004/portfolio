@@ -82,6 +82,10 @@
     font-size: 1.4rem;
   }
   
+  .yt-embed{
+    width: 100%;
+  }
+
   .pic-grid-container {
     display: grid;
     width: 100%;
@@ -205,6 +209,11 @@
     height: 100%;
   }
 
+  .yt-embed{
+    width: 100%;
+    padding-top: 1rem;
+  }
+
   .pic-grid-container {
     display: grid;
     width: 100%;
@@ -247,6 +256,10 @@
  .my-name{
   font-size: 3.5rem;
  }
+
+ .yt-embed{
+  width: 100%;
+}
 
  .project-h1{
   font-size: 2.5rem;
