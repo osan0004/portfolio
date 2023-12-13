@@ -127,7 +127,12 @@
         </h4>
 
         <div class="col-md-6">
-          <img class="w-100" src="images/img-of-me-fixing-lights-1.jpg" alt="David fixing light">
+          <picture>
+            <source srcset="images/img-of-me-fixing-lights-1-480_x_670.jpg" media="(max-width: 390px)" />
+            <source srcset="images/img-of-me-fixing-lights-1-720_x_1007.jpg" media="(max-width: 720px)" />
+            <source srcset="images/img-of-me-fixing-lights-1-1080_x_1510.jpg" media="(max-width: 1080px)" />
+            <img class="w-100" src="images/img-of-me-fixing-lights-1-720_x_1007.jpg" alt="David fixing light">
+          </picture>
         </div>
       </div> <!--closes row-->
     </section> <!--closes third-about-img-->
