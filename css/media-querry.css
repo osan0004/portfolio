@@ -279,10 +279,10 @@
 @media (prefers-color-scheme: dark) {
   /* Styles */
   :root {
-    --bs-primary: #FCF7EE;
-    --bs-primary-rgb: 252, 247, 238;
-    --bs-secondary: #575757;
-    --bs-secondary-rgb: 87, 87, 87;
+    --bs-primary: rgb(247, 141, 187);
+    --bs-primary-rgb: 247, 141, 187;
+    /* --bs-secondary: #575757;
+    --bs-secondary-rgb: 87, 87, 87; */
 
   }
 
