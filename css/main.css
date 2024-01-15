@@ -53,6 +53,10 @@ nav li a:visited {
   transition-delay: .2s;
 }
 
+/* nav li a:active{
+  border-bottom: 1px solid black;
+} */
+
 nav li a:hover {
   color: #994505;
 }
