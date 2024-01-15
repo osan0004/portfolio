@@ -174,7 +174,9 @@ nav li :focus {
     "pic-4 pic-5 pic-6 pic-7"
     "pic-8 pic-8 pic-9 pic-9"
     "pic-10 pic-11 pic-12 pic-13"
-    "pic-14 pic-14 pic-15 pic-15";
+    "pic-14 pic-14 pic-15 pic-15"
+    "pic-16 pic-16 pic-17 pic-17"
+    "pic-18 pic-18 pic-18 pic-19";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 1rem;
   column-gap: 1rem;
@@ -251,6 +253,25 @@ nav li :focus {
 .pic-15 {
   grid-area: pic-15;
 }
+
+.pic-16 {
+  grid-area: pic-16;
+}
+
+.pic-17 {
+  grid-area: pic-17;
+}
+
+.pic-18 {
+  grid-area: pic-18;
+}
+
+.pic-19 {
+  grid-area: pic-19;
+}
+
+
+
 
 .saturation {
   filter: grayscale(0%) brightness(0.95);

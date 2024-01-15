@@ -97,9 +97,13 @@
       "pic-6 pic-7 pic-7"
       "pic-8 pic-9 pic-9"
       "pic-10 pic-11 pic-12"
-      "pic-13 pic-14 pic-14"
-      "pic-15";
-    grid-template-columns: 1fr ;
+      "pic-13 pic-14"
+      "pic-15 pic-15"
+      "pic-16 pic-16"
+      "pic-17 pic-17"
+      "pic-18 pic-18 pic-18"
+      "pic-19 pic-19";
+    grid-template-columns: 1fr;
     row-gap: .8rem;
     column-gap: .8rem;
   }
@@ -230,7 +234,11 @@
       "pic-10 pic-11"
       "pic-12 pic-13"
       "pic-14 pic-14"
-      "pic-15 pic-15";
+      "pic-15 pic-15"
+      "pic-16 pic-16"
+      "pic-17 pic-17"
+      "pic-18 pic-18"
+      "pic-19 pic-19";
     grid-template-columns:1fr 1fr;
     row-gap: .8rem;
     column-gap: .8rem;
