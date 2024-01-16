@@ -154,7 +154,43 @@ nav li :focus {
   transition: .3s ease-in-out;
 }
 
-/* ---------------PROJECTS PAGE------------------ */
+/* --------------PROJECTS PAGE------------ */
+/* --------------PROJECTS PAGE------------ */
+/* --------------PROJECTS PAGE------------ */
+
+.portrait-event-link-2 a:hover,
+.portrait-event-link-2 :focus {
+  background-color: #994505;
+  transition-delay: .1s;
+  transform: scale(0.9);
+  color: white;
+}
+
+.portrait-event-link-2 {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.portrait-event-link-2 a {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: .3s ease-in-out;
+  max-width: 31.25rem;
+
+}
+
+
+
+/* ---------------PORTRAITS PAGE------------------ */
 
 .project-h1 {
   font-size: 5rem;
